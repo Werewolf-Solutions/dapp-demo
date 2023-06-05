@@ -1,0 +1,36 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dialog-bg-color);
+  z-index: 999;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-card {
+  padding: 20px;
+  background-color: var(--popup-bg-color);
+  box-shadow: 0 2px 4px var(--dialog-bg-color);
+  border-radius: 4px;
+  color: var(--main-text-color);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.popup-message {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}

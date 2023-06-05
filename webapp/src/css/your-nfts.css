@@ -1,0 +1,90 @@
+.your-nfts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.your-nfts h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #3a6e3b;
+  text-shadow: 1px 1px 2px black;
+}
+
+.nft-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nft-card {
+  position: relative;
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.nft-card:hover {
+  transform: scale(1.05);
+}
+
+.nft-card.active {
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  transform: scale(1.1);
+}
+
+.nft-image {
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 10px 10px 0 0; /* Rounded corners for the top */
+}
+
+.nft-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nft-details {
+  padding: 10px;
+}
+
+.nft-details h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.mint-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sold-out {
+  font-weight: bold;
+  color: red;
+}
+
+.nft-description {
+  margin-top: 10px;
+}
+
+.nft-price {
+  font-weight: bold;
+  margin-top: 10px;
+}

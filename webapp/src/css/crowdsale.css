@@ -1,0 +1,68 @@
+.crowdsale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.crowdsale-card {
+  background-color: var(--card-bg-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px 0 var(--shadow-card-color),
+    0 0 0 20px var(--shadow-card-color);
+  max-width: 500px;
+}
+
+.crowdsale-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--main-text-color);
+  text-shadow: 1px 1px 2px var(--shadow-main-text-color);
+}
+
+.crowdsale-details {
+  margin-bottom: 25px;
+  color: var(--main-text-color);
+  text-align: center;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 2px black; */
+}
+
+.crowdsale-details p {
+  margin-bottom: 10px;
+}
+
+.crowdsale-form {
+  display: flex;
+  align-items: center;
+}
+
+.crowdsale-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.crowdsale-button {
+  background-color: var(--button-bg-color);
+  color: var(--secondary-text-color);
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.crowdsale-button:hover {
+  background-color: var(--button-hover-color);
+}
+
+@media screen and (max-width: 768px) {
+  .crowdsale-card {
+    margin-top: 20vh;
+  }
+}

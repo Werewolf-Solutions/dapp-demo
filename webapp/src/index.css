@@ -1,0 +1,52 @@
+.light {
+  --bg-color: #ffffffa8;
+  --main-text-color: #000;
+}
+
+.dark {
+  --card-bg-color: #3333339d;
+  --shadow-card-color: #fff;
+  --button-bg-color: #4caf50;
+  --button-hover-color: #fff;
+  --button-hover-0: #309548c3;
+  --button-hover-75-100: #2b7d3700;
+  --button-active-0: #309548c3;
+  --button-active-75-100: #2b7d3700;
+  --main-text-color: #fff;
+  --secondary-text-color: #ffffff;
+  --shadow-main-text-color: #0000002e;
+  --shadow-secondary-text-color: #0a0a0a;
+}
+
+.green {
+  --card-bg-color: #f0f4f191;
+  --menu-drawer-bg-color: #f0f4f1;
+  --popup-bg-color: #fff;
+  --shadow-card-color: #84868413;
+  --button-bg-color: #4caf50;
+  --button-hover-color: #1f5d2d;
+  --button-hover-0: #309548c3;
+  --button-hover-75-100: #2b7d3700;
+  --button-active-0: #309548c3;
+  --button-active-75-100: #2b7d3700;
+  --main-text-color: #1f5d2d;
+  --secondary-text-color: #ffffff;
+  --shadow-main-text-color: #0000002e;
+  --shadow-secondary-text-color: #244424;
+  --dialog-bg-color: #25252580;
+  --general-dark: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
