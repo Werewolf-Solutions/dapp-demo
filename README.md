@@ -41,17 +41,3 @@ npm start
 
 npm run build
 ```
-
-# How to create the same app step by step
-
-Create folder
-
-`mkdir dapp-demo && cd dapp-demo`
-
-Create hardhat project in chain folder
-
-`mkdir chain && cd chain && npx hardhat`
-
-Create React app
-
-`cd .. && npx create-react-app webapp`
